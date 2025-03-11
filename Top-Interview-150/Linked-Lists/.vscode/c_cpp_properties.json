@@ -1,0 +1,19 @@
+{
+    "configurations": [
+      {
+        "name": "Mac",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/local/Cellar/llvm/19.1.7_1/include/c++/v1",  // Homebrew LLVM 的 libc++
+          "/usr/local/include",
+          "/Library/Developer/CommandLineTools/usr/include"
+        ],
+        "compilerPath": "/usr/local/opt/llvm/bin/clang++",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+      }
+    ],
+    "version": 4
+  }
+ 
